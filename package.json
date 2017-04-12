@@ -2,5 +2,14 @@
   "devDependencies": {
     "eslint": "^3.19.0",
     "jest": "^19.0.2"
+  },
+  "scripts": {
+    "start": "echo '[INFO] This project is runnable through tests only'",
+    "test": "./node_modules/.bin/jest",
+    "test:coverage": "./node_modules/.bin/jest --coverage",
+    "test:watch": "./node_modules/.bin/jest --watch"
+  },
+  "engines" : {
+    "node" : ">=7.4.0"
   }
 }
